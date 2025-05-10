@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Bishnu Adhikari</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-mode">
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <span class="animated-text">Bishnu</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#writing">Writings</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#graphics">Graphics</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <li>
+            <button id="theme-toggle" aria-label="Toggle dark/light mode">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>
+          <span class="greeting">Hello, I'm</span>
+          <span class="name">Bishnu Adhikari</span>
+          <span class="title" id="dynamic-title">Designer र Developer</span>
+        </h1>
+        <p class="animated-text">Crafting digital experiences with <span class="highlight">passion</span> and <span class="highlight">precision</span></p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn secondary">Get In Touch</a>
+        </div>
+      </div>
+     <br><br><br>
+      <div class="container>
+      <div class="description">
+
+        <p ><br>I’m Bishnu Adhikari, a passionate and multi-talented individual with skills in web development, graphics design, video editing, and content creation. With hands-on experience from my on-the-job training and personal projects, I’ve developed a strong foundation in both technical and creative fields. I enjoy transforming ideas into meaningful digital experiences—whether it's building responsive websites, designing captivating visuals, or editing engaging videos.
+
+          Driven by a deep interest in practical learning and simplicity, I focus on creating user-friendly solutions that solve real problems. I also enjoy inspiring others through training, motivational speaking, and creative writing, including poems and love stories.
+          
+          I'm a dedicated learner, a hodophile at heart, and someone who finds joy in continuous self-improvement and sharing knowledge with others.</p>
+      </div>
+    </div>
+      <div class="hero-image">
+        <div class="shape"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-container">
+            <img src="C:\Users\HP\Downloads\maho.jpeg" alt="Profile picture">
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="animated-text">I'm a passionate <span class="highlight">Designer र Developer</span> with a keen eye for detail and a love for creating seamless user experiences.</p>
+          <p>With over 3 years of experience in web development, I specialize in building responsive, accessible, and performant web applications.</p>
+          <p>When I'm not coding, you can find me travelling, writing, or experimenting with new technologies.</p>
+          <div class="stats">
+            <div class="stat">
+              <span class="number" data-count="3">0</span>
+              <span class="label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="number" data-count="30">0</span>
+              <span class="label">Projects Completed</span>
+            </div>
+            <div class="stat">
+              <span class="number" data-count="10">0</span>
+              <span class="label">Happy Clients</span><p>(and counting...)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="web">
+          <div class="project-image">
+            <img src="C:\Users\HP\Downloads\gyaniqho.png" alt="Gyaniq">
+          </div>
+          <div class="project-info">
+            <h3>Gyaniq</h3>
+            <p>A full-featured online quiz platform with engaging MCQ quizes for technical upliftment.</p>
+            <div class="project-tags">
+              <span>Html</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://bishabadkri.github.io/Gyaniq/" class="btn small" target="_blank" rel="noopener noreferrer">View Project</a>
+              <a href="https://github.com/bishabadkri/Gyaniq" class="btn small secondary" target="_blank" rel="noopener noreferrer">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="mobile">
+          <div class="project-image">
+            <img src="C:\Users\HP\Downloads\hangman.jpg" alt="hangman game">
+          </div>
+          <div class="project-info">
+            <h3>Hangman</h3>
+            <p>
+              Hangman using C++ is an interesting word-guessing game where the player tries to guess a hidden word by suggesting letters. 
+              </p>
+            <div class="project-tags">
+              <span>C++</span>
+             
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bishabadkri/C-Plus-Plus-Projects"  target="_blank" rel="noopener noreferrer" class="btn small secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="design">
+          <div class="project-image">
+            <img src="C:\Users\HP\Downloads\atm.jpg" alt="ATM Principle">
+          </div>
+          <div class="project-info">
+            <h3>ATM Principle</h3>
+            <p>This repository demonstrates a simple simulation of ATM (Asynchronous Transfer Mode), showing how data is transmitted using fixed-size cells. It includes a Java implementation that simulates sending voice, video, and data traffic over a virtual circuit.
+            </p>
+            <div class="project-tags">
+              <span>JAVA</span>
+              
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bishabadkri/ATM_principle" class="btn small secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="web">
+          <div class="project-image">
+            <img src="C:\Users\HP\Downloads\ginchaurho.jpg" alt="Site(Acadmey Ginchaur)" >
+          </div>
+          <div class="project-info">
+            <h3>Ginchaur Academy Site</h3>
+            <p> Ginchaur Academy provides information about the institution's academic programs, events, admissions, and resources, offering a digital platform for students, parents, and staff to stay connected..</p>
+            <div class="project-tags">
+              <span>TypeScript</span>
+              
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bishabadkri/Ginchaur-School"target="_blank" rel="noopener noreferrer" class="btn small secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="writing" class="writing">
+    <div class="container">
+      <h2 class="section-title">My Writings</h2>
+      <div class="writing-grid">
+        <div class="writing-card">
+          <h3>अस्थिर मन - A teenage love</h3>
+          <p>A heartfelt teenage love story exploring the depths of true and fake love.</p>
+          <a href="C:\Users\HP\Downloads\Asthirman.pdf"  target="_blank" rel="noopener noreferrer" download class="btn small secondary">Download</a>
+        </div>
+        <div class="writing-card">
+          <h3>POV on राजावादी आन्दोलन </h3>
+          <p>My personal view on the protestors activities and effects they face later on.!!!!</p>
+          <a href="C:\Users\HP\Downloads\nepalho.pdf"  target="_blank" rel="noopener noreferrer" download class="btn small secondary">Download</a>
+        </div>
+        <div class="writing-card">
+          <h3>POV on RevisingSocialMediaBill</h3>
+          <p>In my writing, I oppose the proposed social media bill in Nepal, arguing that it could infringe on freedom of speech and privacy.
+          </p>
+          <a href="C:\Users\HP\Downloads\writings\socialmedia.wps pdf"   target="_blank" rel="noopener noreferrer" download class="btn small secondary">Download</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="videos" class="videos">
+    <div class="container">
+      <h2 class="section-title">My Videos</h2>
+      <div class="videos-grid">
+        <div class="video-card">
+          <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/4I2buO-sUzc" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+      </iframe>
+                <p>Budho Bhaiyo (Lyrical) </p>
+        </div>
+        <div class="video-card">
+          <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/4z4Wdc-Jfgw" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+      </iframe>
+      
+      
+          <p>Aabhash - Poetry on love hidden between no conversations</p>
+        </div>
+        <div class="video-card">
+          <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/pjRKazL5fBU" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+          <p>Dear Comrade - Poetry on Long Distance Relationship</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="graphics" class="graphics">
+    <div class="container">
+      <h2 class="section-title">Graphics Work</h2>
+      <div class="graphics-grid">
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\yt_2084.png" alt="Graphic Design 1">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\ytyt.jpg" alt="Graphic Design 2">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\hlo.png" alt="Graphic Design 3">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\joekohli.png" alt="Graphic Design 4">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\ganatantra.jpg" alt="Graphic Design 5">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\virat.png" alt="Graphic Design 6">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\Dear Comrade.png" alt="Graphic Design 7">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\budhobhaiyo.png" alt="Graphic Design 8">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\saurab.jpg" height="600" width="600" alt="Graphic Design 9">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\koma.jpg" alt="Graphic Design 10">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\loho.jpg" alt="Graphic Design 11">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\father.jpg" alt="Graphic Design 11">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\LETUSSPEAK.png" alt="Graphic Design 12">
+          </div>
+        </div>
+        <div class="graphics-card">
+          <div class="graphics-image">
+            <img src="C:\Users\HP\Downloads\graphics\watch.jpg" alt="Graphic Design 12">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ 
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>yamadeath0@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+977-9767644426</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Butwal, Nepal</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/bishabadkri" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/bishnu-adhikari-8bb6242a5/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/bishnuadkri0" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i class ="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/bishnu.adhikari.675188" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Bishnu Adhikari. All Rights Reserved.</p>
+        <div class="back-to-top">
+          <a href="#home" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
